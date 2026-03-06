@@ -15,6 +15,7 @@
         <a href="<?= base_url('/artikel');?>">Artikel</a>
         <a href="<?= base_url('/about');?>">About</a>
         <a href="<?= base_url('/contact');?>">Kontak</a>
+        <a href="<?= base_url('/admin/artikel');?>">Admin</a>
     </nav>
     <section id="wrapper">
         <section id="main">

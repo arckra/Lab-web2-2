@@ -22,3 +22,24 @@
 2. Perbedaan antara View Cell (misal: UITableViewCell, UICollectionViewCell) dan View biasa:
 - View Cell: Digunakan di dalam reusable list/collection (seperti tabel atau grid). Memiliki mekanisme reuse untuk efisiensi memori, dan biasanya membawa data spesifik per item.
 - View biasa: Komponen UI umum (seperti button, label, container) yang berdiri sendiri, tidak otomatis di-reuse, dan tidak terikat dengan mekanisme dequeuing.
+
+ # Praktikum 4
+ <img width="970" height="508" alt="image" src="https://github.com/user-attachments/assets/d129dba3-5b47-4837-9ae3-59612646c5c9" />
+
+---
+
+**Apabila Ingin masuk ke halaman admin, cukup login menggunakan akun admin**
+
+<img width="536" height="405" alt="image" src="https://github.com/user-attachments/assets/cca4caa0-d03a-4149-864f-075f66fa6f73" />
+
+<img width="1029" height="900" alt="image" src="https://github.com/user-attachments/assets/d327cc0e-3126-4ea7-984c-37232fef8983" />
+
+---
+
+**Apabila ingin masuk ke user, cukup ketikkan akun dan password user**
+
+<img width="640" height="420" alt="image" src="https://github.com/user-attachments/assets/c4ee7b05-74b0-4edd-9c5c-6e5ff3f8af62" />
+
+<img width="1014" height="660" alt="image" src="https://github.com/user-attachments/assets/6180bdc4-3071-4be9-9100-2ce0fe618080" />
+
+# Praktikum 5

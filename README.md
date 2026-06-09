@@ -43,3 +43,10 @@
 <img width="1014" height="660" alt="image" src="https://github.com/user-attachments/assets/6180bdc4-3071-4be9-9100-2ce0fe618080" />
 
 # Praktikum 5
+
+<img width="1883" height="832" alt="image" src="https://github.com/user-attachments/assets/94cfa133-5ab4-4915-bddf-56215853555d" />
+
+<img width="1896" height="815" alt="image" src="https://github.com/user-attachments/assets/5b615d5a-0062-44c9-b968-b6b49dddc638" />
+
+# Praktikum 6
+

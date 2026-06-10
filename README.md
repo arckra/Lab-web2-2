@@ -44,9 +44,26 @@
 
 # Praktikum 5
 
+**Tampilan Searchbar**
 <img width="1883" height="832" alt="image" src="https://github.com/user-attachments/assets/94cfa133-5ab4-4915-bddf-56215853555d" />
 
+**Tampilan pagination**
 <img width="1896" height="815" alt="image" src="https://github.com/user-attachments/assets/5b615d5a-0062-44c9-b968-b6b49dddc638" />
 
 # Praktikum 6
 
+**Tampilan Halaman User**
+<img width="1053" height="736" alt="image" src="https://github.com/user-attachments/assets/faa3983e-bd0c-4126-976d-3a3bcd382962" />
+
+**Detailnya**
+<img width="1046" height="652" alt="image" src="https://github.com/user-attachments/assets/75cbba41-b510-43c8-bd9d-99557beb9128" />
+
+---
+
+**Tampilan Halaman Admin**
+<img width="1906" height="639" alt="image" src="https://github.com/user-attachments/assets/04201bf5-9361-470b-88e3-c8a4fe9e7d93" />
+
+**Detailnya**
+<img width="671" height="789" alt="image" src="https://github.com/user-attachments/assets/77f991d5-50cb-43a1-8d3d-01fee8bbd3d5" />
+
+Praktikum 7

@@ -73,3 +73,24 @@
 <img width="671" height="789" alt="image" src="https://github.com/user-attachments/assets/77f991d5-50cb-43a1-8d3d-01fee8bbd3d5" />
 
 # Praktikum 7
+
+**Tampilan gambar pada Halaman Artikel user**
+
+<img width="744" height="359" alt="image" src="https://github.com/user-attachments/assets/7077546c-7dec-4f64-ab54-7bfcadf7901f" />
+
+**Halaman detail Artikel**
+
+<img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/ef20cd81-5227-4c24-8157-e227d89e33c5" />
+
+
+---
+
+**Halaman Admin**
+
+<img width="916" height="272" alt="image" src="https://github.com/user-attachments/assets/5bb8643a-6e40-4d2f-8ced-753f678715b3" />
+
+**Halaman Edit Artikel**
+
+<img width="446" height="412" alt="image" src="https://github.com/user-attachments/assets/619e4172-c964-4cfc-a603-69186700cfb2" />
+
+# Praktikum 8

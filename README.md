@@ -10,6 +10,7 @@
 
 <img width="1109" height="626" alt="Screenshot 2026-03-05 122319" src="https://github.com/user-attachments/assets/5ae1b5e1-f04c-4042-8503-0ef744519595" />
 
+---
 
 # Praktikum 3
 <img width="1066" height="732" alt="image" src="https://github.com/user-attachments/assets/7b7ec219-4b0b-4380-8150-694d74fe3ee3" />
@@ -22,6 +23,8 @@
 2. Perbedaan antara View Cell (misal: UITableViewCell, UICollectionViewCell) dan View biasa:
 - View Cell: Digunakan di dalam reusable list/collection (seperti tabel atau grid). Memiliki mekanisme reuse untuk efisiensi memori, dan biasanya membawa data spesifik per item.
 - View biasa: Komponen UI umum (seperti button, label, container) yang berdiri sendiri, tidak otomatis di-reuse, dan tidak terikat dengan mekanisme dequeuing.
+
+---
 
  # Praktikum 4
  <img width="970" height="508" alt="image" src="https://github.com/user-attachments/assets/d129dba3-5b47-4837-9ae3-59612646c5c9" />
@@ -42,6 +45,8 @@
 
 <img width="1014" height="660" alt="image" src="https://github.com/user-attachments/assets/6180bdc4-3071-4be9-9100-2ce0fe618080" />
 
+---
+
 # Praktikum 5
 
 **Tampilan Searchbar**
@@ -51,6 +56,8 @@
 **Tampilan pagination**
 
 <img width="1896" height="815" alt="image" src="https://github.com/user-attachments/assets/5b615d5a-0062-44c9-b968-b6b49dddc638" />
+
+---
 
 # Praktikum 6
 
@@ -71,6 +78,8 @@
 **Detailnya**
 
 <img width="671" height="789" alt="image" src="https://github.com/user-attachments/assets/77f991d5-50cb-43a1-8d3d-01fee8bbd3d5" />
+
+---
 
 # Praktikum 7
 
@@ -93,6 +102,8 @@
 
 <img width="446" height="412" alt="image" src="https://github.com/user-attachments/assets/619e4172-c964-4cfc-a603-69186700cfb2" />
 
+---
+
 # Praktikum 8
 
 **Tampilan AJAX sebelum data muncul**
@@ -107,5 +118,15 @@
 
 <img width="1131" height="893" alt="image" src="https://github.com/user-attachments/assets/4d65006c-c155-4a8c-82ac-3b151af4d9f2" />
 
+---
+
 # Praktikum 9
+
+**AJAX searchbar and paginstion**
+
+<img width="1120" height="836" alt="image" src="https://github.com/user-attachments/assets/da836284-1b53-4479-b4fa-65d2e8816349" />
+
+---
+
+#Praktikum 10
 

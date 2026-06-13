@@ -107,3 +107,5 @@
 
 <img width="1131" height="893" alt="image" src="https://github.com/user-attachments/assets/4d65006c-c155-4a8c-82ac-3b151af4d9f2" />
 
+# Praktikum 9
+

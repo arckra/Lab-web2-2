@@ -94,3 +94,16 @@
 <img width="446" height="412" alt="image" src="https://github.com/user-attachments/assets/619e4172-c964-4cfc-a603-69186700cfb2" />
 
 # Praktikum 8
+
+**Tampilan AJAX sebelum data muncul**
+
+<img width="1043" height="675" alt="image" src="https://github.com/user-attachments/assets/ed51efce-6e1f-487b-803a-708ab776b12a" />
+
+**Tampilan AJAX sesudah data muncul**
+
+<img width="1206" height="896" alt="image" src="https://github.com/user-attachments/assets/5d1fb55b-ff02-41aa-bd7d-1330a4a91ca0" />
+
+**getData**
+
+<img width="1131" height="893" alt="image" src="https://github.com/user-attachments/assets/4d65006c-c155-4a8c-82ac-3b151af4d9f2" />
+

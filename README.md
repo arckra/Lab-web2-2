@@ -209,3 +209,57 @@
 ---
 
 # Praktikum 14
+
+**Simulasi Pengujian Melalui Postman**
+
+<img width="877" height="564" alt="image" src="https://github.com/user-attachments/assets/787caf84-0e2d-47ae-8a2c-f06617cd229a" />
+
+**<h2>Pengujian VueJs</h2>**
+
+**Tambah Data**
+
+<img width="918" height="565" alt="image" src="https://github.com/user-attachments/assets/f8d5183f-9a24-42f0-98e4-a5329d58ace9" />
+
+<img width="926" height="609" alt="image" src="https://github.com/user-attachments/assets/0a972601-addd-4008-b1f0-f577601f8043" />
+
+**Ubah Data**
+
+<img width="920" height="604" alt="image" src="https://github.com/user-attachments/assets/0f06c6b9-2199-4c8d-8170-4aa903827ada" />
+
+**Hapus Data**
+
+<img width="643" height="253" alt="image" src="https://github.com/user-attachments/assets/c76eef9c-8aed-4e70-a8ba-5bb97f1d5742" />
+
+---
+
+# Perbedaan Navigation Guards vs CI4 Filters
+
+**Vue Router Navigation Guards (Sisi Klien / Browser)**
+Navigation Guards itu kerjanya di dalam browser pengguna. Dia mencegat perpindahan halaman sebelum komponen Vue ditampilkan, dengan cara mengecek apakah localStorage menyimpan status login atau tidak.
+
+Cara kerjanya:
+```
+User klik menu → beforeEach() jalan → cek localStorage
+→ belum login? → redirect ke /login
+→ sudah login? → boleh masuk ke halaman
+```
+
+Kelemahannya: Perlindungan ini hanya ada di tampilan saja. Kalau seseorang tahu URL endpoint API-nya, dia tetap bisa menembak langsung pakai Postman dan mengubah/menghapus data tanpa perlu login sama sekali — karena Navigation Guards tidak punya kendali atas request HTTP yang dikirim langsung ke server.
+
+**CodeIgniter Filters (Sisi Server / Backend)**
+CI4 Filters kerjanya di dalam server, bukan di browser. Setiap request yang masuk ke server dicegat dulu oleh filter sebelum sempat diproses controller. Filter ini mengecek apakah ada token valid di HTTP Header Authorization.
+
+Cara kerjanya:
+```
+Request masuk ke server → ApiAuthFilter::before() jalan
+→ ada token? → lanjut ke controller
+→ tidak ada token? → langsung tolak, kembalikan 401
+```
+
+Ini berlaku untuk semua jenis request, baik yang datang dari browser maupun dari tools seperti Postman. Tidak ada cara untuk bypass filter ini tanpa membawa token yang valid.
+
+---
+Kesimpulan
+Keduanya tidak bisa saling menggantikan — justru harus dipakai bersama-sama. Navigation Guards melindungi tampilan supaya user tidak tersesat ke halaman yang tidak seharusnya. CI4 Filters melindungi data di server supaya tidak bisa dibobol langsung lewat API. Kalau hanya pakai salah satu, sistem tetap punya celah keamanan.
+
+# Sekian ini adalah akhir dari modul saya. Semoga bermanfaat untuk semuanya

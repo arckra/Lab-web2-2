@@ -178,3 +178,18 @@
 
 # Praktikum 12
 
+**Halaman Utama VueJS**
+
+<img width="980" height="252" alt="image" src="https://github.com/user-attachments/assets/3ff272d3-ce37-4b2a-abd9-623bbcccfde6" />
+
+**Halaman Kelola Artikel**
+
+<img width="1028" height="730" alt="image" src="https://github.com/user-attachments/assets/1f3f1ead-c29a-48ba-a8e1-e240b6de01e4" />
+
+**Halaman About**
+
+<img width="627" height="544" alt="image" src="https://github.com/user-attachments/assets/891acc14-c45c-4fc9-adc0-73c2bab97d87" />
+
+---
+
+# Praktikum 13

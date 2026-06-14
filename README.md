@@ -130,3 +130,31 @@
 
 # Praktikum 10
 
+**hasil dari ```php spark routes```**
+
+<img width="1186" height="711" alt="image" src="https://github.com/user-attachments/assets/8c302b77-9e34-4f12-a3db-e222b1151730" />
+
+**Hasil Menampilkan Semua Data**
+
+<img width="1861" height="873" alt="image" src="https://github.com/user-attachments/assets/66f37ed1-6fae-4386-8f22-5b402109fe25" />
+
+**Hasil Menampilkan Data Spesifik**
+
+<img width="1505" height="652" alt="image" src="https://github.com/user-attachments/assets/457c4354-c758-4c50-928f-715a8e8cd35e" />
+
+**Hasil Mengubah Data**
+
+<img width="515" height="310" alt="image" src="https://github.com/user-attachments/assets/46ccac14-a153-436a-9867-ac2153ec7608" />
+
+**Hasil Menambahkan Data**
+
+<img width="472" height="281" alt="image" src="https://github.com/user-attachments/assets/d322a24c-2601-4a99-b161-5d6208a77ba0" />
+
+**Hasil Menghapus data**
+
+<img width="425" height="293" alt="image" src="https://github.com/user-attachments/assets/01d37c4b-f023-41ec-b270-ef33782489f2" />
+
+---
+
+# Praktikum 11
+

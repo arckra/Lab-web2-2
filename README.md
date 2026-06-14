@@ -193,3 +193,19 @@
 ---
 
 # Praktikum 13
+
+**Hasil Skenario A**
+
+<img width="798" height="556" alt="Screenshot 2026-06-14 231127" src="https://github.com/user-attachments/assets/4b5020fb-a85e-4517-b49b-cd481ab2c806" />
+
+**Hasil Skenario B**
+
+<img width="966" height="759" alt="Screenshot 2026-06-14 231256" src="https://github.com/user-attachments/assets/37f553f6-253f-40af-b504-b7fa0c0edd6e" />
+
+**Apabila user memaksa masuk ke halaman About disaat belum login**
+
+<img width="970" height="358" alt="Screenshot 2026-06-14 231340" src="https://github.com/user-attachments/assets/9a89f3fc-1c7f-413d-b2ac-49d73978868d" />
+
+---
+
+# Praktikum 14

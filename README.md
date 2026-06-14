@@ -158,3 +158,23 @@
 
 # Praktikum 11
 
+**Tampilan Utama**
+
+<img width="709" height="402" alt="image" src="https://github.com/user-attachments/assets/140ab714-cf2b-4d43-b6bc-1a42988ad13d" />
+
+**Tampilan Add**
+
+<img width="642" height="359" alt="image" src="https://github.com/user-attachments/assets/7e76e67b-c785-4dd3-8178-3749675b5739" />
+
+**Tampilan Edit**
+
+<img width="718" height="302" alt="image" src="https://github.com/user-attachments/assets/4c945f4c-51ed-46f7-ba37-ef7bda704f8e" />
+
+**Tampilan Delete**
+
+<img width="348" height="174" alt="image" src="https://github.com/user-attachments/assets/2c9a1049-838f-466b-a150-0f41826af011" />
+
+---
+
+# Praktikum 12
+

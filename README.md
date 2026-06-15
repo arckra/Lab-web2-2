@@ -258,8 +258,9 @@ Request masuk ke server → ApiAuthFilter::before() jalan
 
 Ini berlaku untuk semua jenis request, baik yang datang dari browser maupun dari tools seperti Postman. Tidak ada cara untuk bypass filter ini tanpa membawa token yang valid.
 
----
 Kesimpulan
 Keduanya tidak bisa saling menggantikan — justru harus dipakai bersama-sama. Navigation Guards melindungi tampilan supaya user tidak tersesat ke halaman yang tidak seharusnya. CI4 Filters melindungi data di server supaya tidak bisa dibobol langsung lewat API. Kalau hanya pakai salah satu, sistem tetap punya celah keamanan.
+
+---
 
 # Sekian ini adalah akhir dari modul saya. Semoga bermanfaat untuk semuanya

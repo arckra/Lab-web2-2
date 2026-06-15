@@ -265,3 +265,13 @@ box img {
 .read-more:hover {
     text-decoration: underline;
 }
+
+/* Style untuk gambar artikel */
+.article-image {
+    width: 100%;
+    max-width: 300px;  /* Atur sesuai keinginan */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0;
+}

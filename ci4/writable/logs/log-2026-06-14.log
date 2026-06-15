@@ -1,0 +1,448 @@
+DEBUG - 2026-06-14 10:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 10:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-14 11:02:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: PUT, Route: post/5]
+in SYSTEMPATH\Model.php on line 402.
+ 1 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Post.php(74): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->update(null)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 12:05:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: PUT, Route: post/5]
+in SYSTEMPATH\Model.php on line 402.
+ 1 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Post.php(74): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->update(null)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+DEBUG - 2026-06-14 12:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 12:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 12:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-14 12:39:36 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: post]
+in APPPATH\Config\Filters.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-14 12:39:37 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: post]
+in APPPATH\Config\Filters.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-14 12:39:38 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: post]
+in APPPATH\Config\Filters.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-14 12:39:49 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: post]
+in APPPATH\Config\Filters.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-14 12:39:50 --> ErrorException: Cannot redeclare Config\Filters::$aliases
+[Method: GET, Route: post]
+in APPPATH\Config\Filters.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-06-14 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-14 14:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-14 16:19:25 --> Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'judul' cannot be null
+[Method: POST, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:25 --> [Caused by] mysqli_sql_exception: Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:25\', \'2026-06-14 16:19:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+ERROR - 2026-06-14 16:19:56 --> Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'judul' cannot be null
+[Method: POST, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:19:56 --> [Caused by] mysqli_sql_exception: Column 'judul' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2026-06-14 16:19:56\', \'2026-06-14 16:19:56\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel` (`judul`, `isi`, `created_at`, `updated_at`) VALUES (:judul:, :isi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(356): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(898): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(665): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:42:54 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: PUT, Route: post/18]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 406.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(406): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\Post.php(71): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->update('18')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:45:09 --> ParseError: syntax error, unexpected identifier "saveData", expecting "function"
+[Method: GET, Route: post]
+in APPPATH\Controllers\Post.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\app\\Controllers\\Post.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Post')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('post')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-06-14 16:46:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: PUT, Route: post/18]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 406.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(406): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\Post.php(60): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->update('18')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+ERROR - 2026-06-14 23:45:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'lab_ci4', 3306, '', 0)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#13 {main}
+CRITICAL - 2026-06-14 23:45:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `artikel`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+ERROR - 2026-06-14 23:45:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'lab_ci4', 3306, '', 0)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#13 {main}
+CRITICAL - 2026-06-14 23:45:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `artikel`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+ERROR - 2026-06-14 23:45:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'lab_ci4', 3306, '', 0)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#13 {main}
+CRITICAL - 2026-06-14 23:45:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `artikel`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')
+ERROR - 2026-06-14 23:45:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'lab_ci4', 3306, '', 0)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\ALL\laragon\www\lab11_php_ci\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\ALL\laragon\www\lab11_php_ci\ci4\app\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+#6 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(951): App\Controllers\Post->index()
+#7 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#8 F:\ALL\laragon\www\lab11_php_ci\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 F:\ALL\laragon\www\lab11_php_ci\ci4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\ALL\laragon\www\lab11_php_ci\ci4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\ALL\laragon\www\lab11_php_ci\ci4\system\rewrite.php(44): require_once('F:\\ALL\\laragon\\...')
+#13 {main}
+CRITICAL - 2026-06-14 23:45:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: post]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `artikel`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Post.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Post->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\ALL\\laragon\\www\\lab11_php_ci\\ci4\\public\\index.php')

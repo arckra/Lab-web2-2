@@ -17,19 +17,17 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'auth'          => \App\Filters\Auth::class, // Tambahkan ini
+        'auth'          => \App\Filters\Auth::class,
+        'cors'          => \App\Filters\Cors::class,
+        'apiauth'       => \App\Filters\ApiAuthFilter::class,
     ];
 
     public $globals = [
         'before' => [
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
+            'cors',
         ],
         'after' => [
             'toolbar',
-            // 'honeypot',
-            // 'secureheaders',
         ],
     ];
 
@@ -38,7 +36,7 @@ class Filters extends BaseConfig
     public $filters = [
         'auth' => [
             'before' => [
-                'admin/*', // Filter untuk semua route yang dimulai dengan admin
+                'admin/*',
             ],
         ],
     ];

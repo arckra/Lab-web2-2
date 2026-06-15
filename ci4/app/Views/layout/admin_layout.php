@@ -121,7 +121,6 @@
             <a href="<?= base_url('/');?>">Home</a>
             <a href="<?= base_url('/admin/artikel');?>">Dashboard</a>
             <a href="<?= base_url('/artikel');?>">Artikel</a>
-            <a href="<?= base_url('/user/logout');?>" onclick="return confirm('Yakin ingin logout?')">Logout</a>
         </nav>
         <section id="wrapper">
             <section id="main">

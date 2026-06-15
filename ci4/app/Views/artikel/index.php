@@ -13,9 +13,15 @@
                 Dipublikasi: <?= date('d/m/Y', strtotime($row['created_at'])); ?>
             <?php endif; ?>
         </div>
+
+        <!-- TAMBAHKAN TAMPILAN KATEGORI -->
+        <div class="article-category">
+            📁 Kategori: <?= $row['nama_kategori'] ?? 'Tanpa Kategori' ?>
+        </div>
+
     </div>
     
-    <img src="<?= base_url('/gambar/' . $row['gambar']);?>" alt="<?= $row['judul']; ?>">
+    <img src="<?= base_url('/gambar/' . $row['gambar']);?>" alt="<?= $row['judul']; ?>"style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
     <p><?= substr(strip_tags($row['isi']), 0, 200); ?>...</p>
     <a href="<?= base_url('/artikel/' . $row['slug']);?>" class="read-more">Baca Selengkapnya →</a>
 </article>
